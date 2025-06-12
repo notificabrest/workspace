@@ -1,0 +1,48 @@
+🚀 WORKSPACE HUB - EXTENSÃO DO CHROME
+=====================================
+
+📋 INSTRUÇÕES RÁPIDAS DE INSTALAÇÃO:
+
+1. Abra o Chrome e digite: chrome://extensions/
+
+2. Ative o "Modo do desenvolvedor" (canto superior direito)
+
+3. Clique em "Carregar sem compactação"
+
+4. Selecione esta pasta "EXTENSAO"
+
+5. Recarregue o Workspace Hub
+
+✅ PRONTO! Agora você pode carregar qualquer site no Workspace Hub!
+
+📁 ARQUIVOS INCLUSOS:
+- manifest.json (configurações)
+- background.js (remove headers)
+- content.js (bloqueia frame-busting)
+- popup.html (interface)
+- popup.js (lógica do popup)
+- rules.json (regras declarativas)
+- README.md (instruções completas)
+
+🎯 SITES QUE AGORA FUNCIONAM:
+✅ Gmail, Outlook, WhatsApp Web
+✅ Facebook, Twitter, LinkedIn
+✅ Pipedrive, Salesforce, Slack
+✅ E praticamente qualquer outro site!
+
+⚠️ IMPORTANTE:
+- Use apenas em sites confiáveis
+- Mantenha a extensão ativa
+- Funciona apenas no Chrome/Edge
+
+🆘 PROBLEMAS?
+- Verifique se todos os arquivos estão na pasta
+- Certifique-se que o "Modo desenvolvedor" está ativo
+- Recarregue a página do Workspace Hub após instalar
+
+🔧 BOTÃO "ABRIR WORKSPACE HUB" NÃO FUNCIONA?
+- Certifique-se que o Workspace Hub está rodando
+- Execute "npm run dev" na pasta do projeto
+- O servidor deve estar ativo em localhost:5173
+
+🚀 Desenvolvido para Workspace Hub v1.0.0
